@@ -11,7 +11,7 @@ require (
 	github.com/google/go-cmp v0.6.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/openshift/api v0.0.0-20240527133614-ba11c1587003
-	github.com/openshift/build-machinery-go v0.0.0-20240419090851-af9c868bcf52
+	github.com/openshift/build-machinery-go v0.0.0-20251023084048-5d77c1a5e5af
 	github.com/openshift/client-go v0.0.0-20240528061634-b054aa794d87
 	github.com/openshift/library-go v0.0.0-20240619140217-e20ca28ddfe7
 	github.com/pkg/errors v0.9.1
