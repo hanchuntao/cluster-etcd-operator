@@ -1,14 +1,12 @@
 module github.com/openshift/cluster-etcd-operator
 
-go 1.22.0
-
-toolchain go1.22.1
+go 1.24.0
 
 require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-bindata/go-bindata v3.1.2+incompatible
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/openshift/api v0.0.0-20240527133614-ba11c1587003
 	github.com/openshift/build-machinery-go v0.0.0-20240419090851-af9c868bcf52
@@ -27,7 +25,7 @@ require (
 	go.etcd.io/etcd/server/v3 v3.5.10
 	go.etcd.io/etcd/tests/v3 v3.5.4
 	go.uber.org/zap v1.26.0
-	golang.org/x/sys v0.18.0
+	golang.org/x/sys v0.37.0
 	google.golang.org/grpc v1.58.3
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
@@ -88,7 +86,7 @@ require (
 	github.com/pkg/profile v1.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_model v0.4.0 // indirect
-	github.com/prometheus/procfs v0.10.1 // indirect
+	github.com/prometheus/procfs v0.19.2 // indirect
 	github.com/robfig/cron v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/soheilhy/cmux v0.1.5 // indirect
@@ -114,7 +112,7 @@ require (
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/oauth2 v0.10.0 // indirect
-	golang.org/x/sync v0.6.0 // indirect
+	golang.org/x/sync v0.17.0 // indirect
 	golang.org/x/term v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
