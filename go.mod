@@ -1,8 +1,6 @@
 module github.com/openshift/cluster-etcd-operator
 
-go 1.22.0
-
-toolchain go1.22.1
+go 1.23
 
 require (
 	github.com/davecgh/go-spew v1.1.1
@@ -39,7 +37,7 @@ require (
 	k8s.io/component-base v0.30.1
 	k8s.io/cri-api v0.21.0
 	k8s.io/klog/v2 v2.120.1
-	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
+	k8s.io/utils v0.0.0-20260108192941-914a6e750570
 )
 
 require (
