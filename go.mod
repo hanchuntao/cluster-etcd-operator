@@ -1,8 +1,6 @@
 module github.com/openshift/cluster-etcd-operator
 
-go 1.22.0
-
-toolchain go1.22.1
+go 1.24.0
 
 require (
 	github.com/davecgh/go-spew v1.1.1
@@ -27,7 +25,7 @@ require (
 	go.etcd.io/etcd/server/v3 v3.5.10
 	go.etcd.io/etcd/tests/v3 v3.5.4
 	go.uber.org/zap v1.26.0
-	golang.org/x/sys v0.18.0
+	golang.org/x/sys v0.40.0
 	google.golang.org/grpc v1.58.3
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
@@ -115,7 +113,7 @@ require (
 	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/oauth2 v0.10.0 // indirect
 	golang.org/x/sync v0.6.0 // indirect
-	golang.org/x/term v0.18.0 // indirect
+	golang.org/x/term v0.39.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
