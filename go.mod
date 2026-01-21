@@ -10,7 +10,7 @@ require (
 	github.com/go-bindata/go-bindata v3.1.2+incompatible
 	github.com/google/go-cmp v0.6.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
-	github.com/openshift/api v0.0.0-20240527133614-ba11c1587003
+	github.com/openshift/api 59aa3e50a9fb
 	github.com/openshift/build-machinery-go v0.0.0-20240419090851-af9c868bcf52
 	github.com/openshift/client-go v0.0.0-20240528061634-b054aa794d87
 	github.com/openshift/library-go v0.0.0-20240619140217-e20ca28ddfe7
